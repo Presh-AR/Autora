@@ -589,7 +589,7 @@
     <validationRules>
         <fullName>Testvalidation</fullName>
         <active>true</active>
-        <errorConditionFormula>Name = ""</errorConditionFormula>
+        <errorConditionFormula>AND (Name = '', ispickval(Type, ""))</errorConditionFormula>
         <errorMessage>Name cannot be empty</errorMessage>
     </validationRules>
     <webLinks>
