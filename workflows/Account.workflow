@@ -11,15 +11,11 @@
     </fieldUpdates>
     <rules>
         <fullName>Capture Change</fullName>
-        <actions>
-            <name>capture_Type_change</name>
-            <type>FieldUpdate</type>
-        </actions>
         <active>true</active>
         <criteriaItems>
             <field>Account.Type</field>
             <operation>equals</operation>
-            <value>Prospect</value>
+            <value>Prospect,Customer - Direct,Customer - Channel</value>
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
