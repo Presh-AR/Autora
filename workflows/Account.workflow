@@ -3,7 +3,7 @@
     <fieldUpdates>
         <fullName>capture_Type_change</fullName>
         <field>Name</field>
-        <formula>Name + text(now())</formula>
+        <formula>Name + text(now())+ Text(now())</formula>
         <name>capture Type change</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Formula</operation>
