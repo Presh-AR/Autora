@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>37.0</version>
     <types>
         <members>BuildAccount</members>
         <members>buildAccountTest</members>
@@ -395,17 +396,6 @@
         <name>Role</name>
     </types>
     <types>
-        <members>PromotionPlanning</members>
-        <name>StaticResource</name>
-    </types>
-    <types>
-        <members>Account.Billing</members>
-        <members>Campaign.ViewCampaignInfluenceReport</members>
-        <members>Case.UpsellCrosssellOpportunity</members>
-        <members>Opportunity.DeliveryStatus</members>
-        <name>WebLink</name>
-    </types>
-    <types>
         <members>Account</members>
         <members>Activities</members>
         <members>Address</members>
@@ -433,5 +423,27 @@
         <members>Security</members>
         <name>Settings</name>
     </types>
-    <version>37.0</version>
+    <types>
+        <members>PromotionPlanning</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Account.Testvalidation</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Account.Billing</members>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Opportunity.DeliveryStatus</members>
+        <name>WebLink</name>
+    </types>
+    <types>
+        <members>Account.capture_Type_change</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Account.Capture Change</members>
+        <name>WorkflowRule</name>
+    </types>
 </Package>
