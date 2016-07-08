@@ -589,7 +589,7 @@
     <validationRules>
         <fullName>Testvalidation</fullName>
         <active>true</active>
-        <errorConditionFormula>AND( ISblank(Name),  ISBLANK( Id ))</errorConditionFormula>
+        <errorConditionFormula>Name = ""</errorConditionFormula>
         <errorMessage>Name cannot be empty</errorMessage>
     </validationRules>
     <webLinks>
