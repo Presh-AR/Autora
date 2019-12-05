@@ -2,7 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>37.0</version>
     <types>
-        <members>BuildAccount</members>
+        <members>dasd</members>
         <members>buildAccountTest</members>
         <name>ApexClass</name>
     </types>
